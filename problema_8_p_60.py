@@ -1,0 +1,6 @@
+A=set(map(int, input('definiti elemente pentru multimea A:')))
+B=set(map(int, input('definiti elemente pentru multimea B')))
+print('a)', A.intersection(B))
+print('b)', A.union(B))
+print('c)', A.difference(B))
+print('c0)', B.difference(A))

@@ -1,0 +1,11 @@
+A=set({1, 2, 3, 4})
+from itertools import combinations
+A1=combinations(A, 1)
+B=combinations(A, 2)
+C=combinations(A, 3)
+D=combinations(A, 4)
+subset1=set(A1)
+subset2=set(B)
+subset3=set(C)
+subset4=set(D)
+print(subset1, subset2, subset3,subset4)
